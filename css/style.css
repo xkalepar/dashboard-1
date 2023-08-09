@@ -1,0 +1,80 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --gray-color: #888;
+}
+.plans-page {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+@media (max-width: 767px) {
+.plans-page {
+        grid-template-columns: minmax(250px, 1fr);
+        margin-left: 10px;
+    margin-right: 10px;
+        gap: 10px;
+    }
+}
+.plans-page .title {
+    margin-bottom: 30px;
+    position: relative;
+}
+.plans-page .title I {
+    position: absolute;
+    left: 80px;
+    bottom: 50%;    
+}
+.plans-page ul li {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+    font-size: 16px;
+}
+.plans-page ul li:not(first-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.plans-page ul li::after {
+    content: "\f05a";
+    position: absolute;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--gray-color);
+    padding-bottom: 15px;
+    cursor: position;
+}
+.plans-page ul li.yes::before {
+    margin-right: 15px;
+    position: absolute;
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--green-color);
+    padding-bottom: 15px;
+
+}
+.plans-page ul li.no::before {
+    margin-right: 15px;
+    position: absolute;
+    content: "\f00d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--red-color);
+    padding-bottom: 15px;
+}
+.plans-page ul li::before {
+    font-size: 18px;
+    
+}

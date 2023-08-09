@@ -1,0 +1,307 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --gray-color: #888;
+}
+/* start width */ 
+.w-full {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.w-100 {
+    width: 100px;
+}
+.h-100 {
+    height: 100px;
+}
+.h-full {
+    height: 100%;
+}
+.w-40 {
+    width: 40px;
+}
+.h-40 {
+    height: 40px;
+}
+/* start box */
+.d-block {
+    display: block;
+}
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+/* start padding . margin */
+.p-5 {
+    padding: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.m-0 {
+    margin: 0;
+}
+.m-5 {
+    margin: 5px;
+}
+.m-10 {
+    margin: 10px;
+}
+.m-15 {
+    margin: 15px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.mr-5 {
+    margin-right: 5px;
+}.mr-10 {
+    margin-right: 10px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+
+/* border */
+.b-no {
+    border: none;
+}
+.b-ccc {
+   border: 1px solid #ccc;
+}
+.b-eee {
+   border: 1px solid #eee;
+}
+.b-white {
+   border: 3px solid #fff;
+}
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.rad-half {
+    border-radius: 50%;
+}
+.bb-ccc {
+    border-bottom: 1px solid #ccc;
+}
+/* font */
+.txt-c {
+    text-align: center;
+}
+@media (max-width: 767px) {
+.mobile-txt-c {
+    text-align: center;
+}    
+
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fs-40 {
+    font-size: 40px;
+}.fw-bold {
+    font-weight: bold;
+}
+.fw-normal {
+    font-weight: normal;
+}
+
+/* color */
+.c-black {
+    color: black;
+}
+.c-white {
+    color: white;
+}
+.c-blue {
+
+    color:var(--blue-color);
+}
+.c-blue-alt {
+    color: var(--blue-alt-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-green {
+    color: var(--green-color);
+}
+.c-red {
+    color: var(--red-color);
+}
+.c-gray {
+    color: var(--gray-color);
+}
+.c-777 {
+    color: #777;
+}
+.bg-blue {
+    background: var(--blue-color);
+}
+.bg-blue-alt {
+    background: var(--blue-alt-color);
+}
+.bg-orange {
+    background: var(--orange-color);
+}
+
+.bg-green {
+    background: var(--green-color);
+}
+.bg-red {
+    background: var(--red-color);
+}
+.bg-gray {
+    background: var(--gray-color);
+}
+.bg-eee {
+    background: #eee;
+}
+
+.bg-white {
+   background: white; 
+}
+/* start position */
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+
+
+/* start component */
+.hidden {
+    overflow: hidden;
+}
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+/* media */
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+.mobile-d-block {
+    display: block;
+}   
+}
+/* out line*/
+.out-green {
+    outline: 2px solid var(--green-color);
+}
+.out-blue {
+    outline: 2px solid var(--blue-color);
+}
+.out-orange {
+    outline: 3px solid var(--orange-color);
+}

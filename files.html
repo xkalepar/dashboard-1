@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+    <title>Files</title>
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c mt-0">Hodifa</h3>
+            <ul>
+                <li><a class=" p-10 c-black d-flex align-center rad-6 fs-14" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span></a></li>
+                <li><a class=" p-10 c-black d-flex align-center rad-6 fs-14" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span></a></li>
+                <li><a class=" p-10 c-black d-flex align-center rad-6 fs-14" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span></a></li>
+                <li><a class=" p-10 c-black d-flex align-center rad-6 fs-14" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span></a></li>
+                <li><a class=" p-10 c-black d-flex align-center rad-6 fs-14" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span></a></li>
+                <li><a class=" p-10 c-black d-flex align-center rad-6 fs-14" href="freinds.html">
+                        <i class="fa-regular fa-circle-user fa-fw">
+                        </i>
+                        <span>Freinds</span></a>
+                </li>
+                <li><a class="active p-10 c-black d-flex align-center rad-6 fs-14" href="files.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span>Files</span></a></li>
+                <li><a class="p-10 c-black d-flex align-center rad-6 fs-14" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span></a></li>
+            </ul>
+        </div>
+        <div class="content w-full hidden">
+            <div class="header bg-white  between-flex">
+                <div class="search p-relative">
+                    <input type="search" class="input p-10" placeholder="Type A Keyword" />
+                </div>
+                <div class="icons d-flex align-center">
+                    <div class="i p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </div>
+                    <img src="imgs/avatar.png" alt="" />
+                </div>
+
+            </div>
+            <h1 class="p-relative">Files</h1>
+            <div class="files-page m-20 d-flex gap-20">
+                <div class="file-stat p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-20">Files Statistics</h2>
+                    <div class="blue between-flex b-eee rad-6 p-10 mb-15">
+                        <I class="fa-regular fa-file-pdf fa-lg  mr-15"></I>
+                        <div class="text">
+                            <span class="fs-14">PDF Files </span>
+                            <span class="fs-14 c-gray d-block mt-5">130 Files </span>
+                        </div>
+                        <div class="size">
+                            6.5GB</div>
+                    </div>
+                    <div class="green between-flex b-eee rad-6 p-10 mb-15">
+                        <I class="fa-regular fa-images fa-lg  mr-15"></I>
+                        <div class="text">
+                            <span class="fs-14">Images
+
+                            </span>
+                            <span class="fs-14 c-gray d-block mt-5">115 Files </span>
+                        </div>
+                        <div class="size">
+                            3.5GB</div>
+                    </div>
+
+                    <div class="red between-flex b-eee rad-6 p-10 mb-15">
+                        <I class="fa-regular fa-file-word fa-lg  mr-15"></I>
+                        <div class="text">
+                            <span class="fs-14">WORD Files </span>
+                            <span class="fs-14 c-gray d-block mt-5">130 Files</span>
+                        </div>
+                        <div class="size">
+                            3.5GB</div>
+                    </div>
+
+                    <div class="orange between-flex b-eee rad-6 p-10 mb-15">
+                        <I class="fa-solid fa-file-csv fa-lg  mr-15"></I>
+                        <div class="text">
+                            <span class="fs-14">CSV Files </span>
+                            <span class="fs-14 c-gray d-block mt-5">133 Files</span>
+                        </div>
+                        <div class="size">
+                            2.3GB</div>
+                    </div>
+                    <a class="bg-blue c-white upload" href="#ruru">
+                        <I class="fa-solid fa-angles-up"></I>
+                        Upload</a>
+                </div>
+                <div class="files-content d-grid gap-20">
+
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/pdf.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/eps.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/psd.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/dll.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/png.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/avi.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/psd.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/pdf.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/eps.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/psd.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/pdf.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/eps.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/psd.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/dll.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/png.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/avi.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/psd.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/pdf.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/eps.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-6 p-20 p-relative">
+                        <I class="fa-solid fa-download p-absolute"></I>
+                        <div class="icon txt-c">
+                            <img class="txt-c p-10" src="imgs/psd.svg" alt="" />
+                        </div>
+                        <p class="txt-c fs-14">my-file.pdf</p>
+                        <span class="fs-13 c-gray">Hodifa</span>
+                        <div class="info pt-10 mt-10 between-flex c-gray fs-13">
+                            <span>31/3/2019</span>
+                            <span>4.3MB</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+</body>
+
+</html>
+
+<!--
+
+
+Word Files
+110 Files
+3.2GB
+CSV Files
+99 Files
+2.9GB
+ Upload-->
